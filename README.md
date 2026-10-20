@@ -11,7 +11,7 @@ claude plugin install parallel-edit@megmogmog1965-claude-code-parallel-edit
 
 ## 使い方
 
-1. 最初のセッションに名前を付け、担当を渡して作業役のスキルを読み込ませます。
+1. 最初のセッションに名前を付け、作業役のスキルを読み込ませます。文書のパスと担当範囲は省略できます。省略すると、会話の中で編集している文書と、人間と議論する論点が使われます。
 
    ```text
    /rename session-01
@@ -29,12 +29,11 @@ claude plugin install parallel-edit@megmogmog1965-claude-code-parallel-edit
    /parallel-edit:worker ./docs/spec.md "4 章"
    ```
 
-3. 見直し役を置く場合は、新しいセッションで見直し役のスキルを読み込ませ、定期の見直しを `/loop` で繰り返します。
+3. 見直し役を置く場合は、新しいセッションで見直し役のスキルを読み込ませます。見直し役は、15 分ごとの見直しを自分で予約します。
 
    ```text
    /rename session-review
    /parallel-edit:review ./docs/spec.md
-   /loop 15m 前回見直してからの変更を確かめる
    ```
 
 ## ライセンス
