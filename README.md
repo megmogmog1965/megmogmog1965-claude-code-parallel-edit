@@ -5,8 +5,8 @@
 ## インストール
 
 ```bash
-claude plugin marketplace add megmogmog1965/megmogmog1965-claude-code-parallel-edit
-claude plugin install parallel-edit@megmogmog1965-claude-code-parallel-edit
+claude plugin marketplace add megmogmog1965/claude-code-parallel-edit
+claude plugin install parallel-edit@claude-code-parallel-edit
 ```
 
 ## 使い方

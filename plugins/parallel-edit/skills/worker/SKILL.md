@@ -1,7 +1,7 @@
 ---
 name: worker
 description: 1 つの文書を複数のセッションで並列に編集するときの、作業役のセッションの決まり。人間が担当を割り当てたセッションで使う。
-argument-hint: "[文書のパス] [\"担当範囲\"]"
+argument-hint: "[文書のパス] [担当範囲]"
 arguments: file scope
 disable-model-invocation: true
 ---
