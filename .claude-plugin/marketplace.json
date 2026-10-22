@@ -8,7 +8,7 @@
     {
       "name": "parallel-edit",
       "description": "1 つの文書を複数の Claude Code セッションで並列に編集するための決まりを、作業役と見直し役のスキルとして提供する",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "author": {
         "name": "megmogmog1965",
         "url": "https://github.com/megmogmog1965"
